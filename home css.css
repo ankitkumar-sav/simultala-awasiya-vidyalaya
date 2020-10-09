@@ -1,0 +1,468 @@
+/* Margin and Padding Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* * {box-sizing:border-box} */
+
+body{
+    background-color: rgba(50,212,155,.09);
+    height: 1200px;
+
+}
+
+/* ---------------------------  CSS for heading division -------------------------*/
+#heading-div{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+}
+
+#heading-logo{
+    padding: 10px;
+    padding-left: 20px;
+}
+#heading-logo-div , #heading{
+    padding-left: 15px;
+    padding-right: 35px;
+}
+
+#heading h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+/* ---------------------------  CSS End for heading division -------------------*/
+
+/* ---------------------------  CSS for Navigation Bar-------------------*/
+
+/* -------------------  Main navbar ------------------------- */
+#navbar{
+    border: 2px solid green;
+    background-color: rgba(50, 212, 155, 0.35);
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    max-height:4%;
+    /* animation: navbar-slider 2s forwards; */
+}
+@keyframes navbar-slider{
+    from{
+        max-height: 4%;
+    }
+    to{
+        max-height: 100%;
+    }
+}
+@keyframes navbar-slider2{
+    from{
+        max-height: 100%;
+    }
+    to{
+        max-height: 4%;
+    }
+}
+
+#logo-link img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+#navs-list{
+    display: flex;
+    margin: 9px 13px 0px 11px;
+    font-size: 19px;
+    list-style: none;
+}
+
+#navs-list li{
+    margin: 3px;
+    padding: 5px;  
+}
+
+#navs-list a{
+    text-decoration: none;
+    opacity: 0.8;
+}
+#navs-list a:hover{
+    opacity: 2;
+}
+.drop-lists{
+    border: 2px solid green;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+    margin: 2px 13px;
+    max-height: 0px;
+    animation: slider 2s forwards;
+    background-color: ivory;
+    z-index: 2;
+}
+
+.drop-btns{
+    border: none;
+    background: none;
+    font-size: 19px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+.drop-btns:active{
+    border: none;
+}
+
+.droppers a{
+    display: block;
+}
+@keyframes slider{
+    from{
+        max-height: 0%;
+    }
+    to{
+        max-height: 100%;
+    }
+}
+.nav-tab{
+margin: 0px 10px;
+}
+
+.drop-lists a {
+    padding: 3px 5px;
+}
+
+.drop-lists a:hover{
+    background-color: rgb(194, 172, 172);
+    border-radius: 5px;
+}
+
+/* hovering systems */
+#dropper-1:hover #drop-list-1{
+    display: flex;
+}
+#dropper-1:hover #arrow-1{
+    transform: rotate(180deg);
+}
+#dropper-2:hover #drop-list-2{
+    display: flex;
+}
+#dropper-2:hover #arrow-2{
+    transform: rotate(180deg);
+}
+/* hovering systems */
+#search-div{
+    margin: 7px 20px 13px auto;
+    font-size: 19px;    
+}
+
+#search-div input{
+    margin: 0px 3px 0px auto;
+    font-size: 23px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    width: 205px;
+}
+#search-div button{
+    font-size: 27px;
+    border:none;
+    background:none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+#search-div button:hover{
+    opacity: 1;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px 10px;
+    display: none;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 2px;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+#menu-logo-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navbar for Mobile screen */
+@media screen and (max-width: 1078px) {
+    body {
+      color: blue;
+    }
+    #heading-div{
+        flex-direction: column;
+    }
+    .container{
+        display: inline-block;
+    }
+    #navbar{
+        flex-direction: column;
+    }
+    #navs-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .drop-lists{
+        position: relative;
+        
+    }
+    #search-div{
+        margin: auto;
+    }
+    #search-div input{
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+  }
+/* ---------------------------  CSS End  for Navigation Bar-------------------*/
+
+/* -------------------------- CSS FOR SECTION 1 ---------------------- */
+#sec-1{
+    display: flex;
+    flex-wrap: no-wrap;
+    border: 2px solid yellow;
+}
+.boxes{
+    border: 2px solid blue;
+}
+#box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#box-1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 2px;
+    margin: 8px 70px;
+}
+#box-1 a:hover , #forget{
+    text-decoration:underline;
+}
+
+#box-2{
+    position: relative;
+    min-width: 59%;
+    margin: auto;
+}
+
+.number{
+    position: absolute;
+    padding: 5px 5px;
+}
+
+.slides{
+    display:none;
+    animation: fade 1s forwards;
+}
+@keyframes fade{
+    from{
+        opacity: 0.8;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#slide-1{
+    display: flex;
+}
+
+#prev , #next{
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    opacity: 0.5;
+    padding: 26% 5%;
+    /* user-select: none; */
+}
+#prev:hover , #next:hover{
+    opacity: 2;
+    border-radius: 2px 3px;
+    /* background-color: rgba(0,0,0,0.8); */
+}
+#next{
+    right: 0;
+}
+#indicator{
+    position: absolute;
+    bottom: 5px;
+    left: 40%;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 2px;
+    display: inline-block;
+    opacity: 0.7;
+    animation: fade 1s forwards;
+}
+#dot-1{
+    opacity: 1;
+}
+#box-2 , .slides{
+    box-sizing: border-box;
+}
+
+/* -------------------------  b3 --------------------------- */
+#box-3{
+    padding: 10px 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    
+}
+#box-3 h2{
+    margin: 25px 20px;
+    font-size: 25px;
+}
+#box-3 form{
+    font-size: 20px;
+}
+#box-3 form label{
+    margin-bottom: 10px;
+}
+#email , #password{
+    margin-bottom: 20px;
+    height:20px;
+    font-size: 16px;
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+#submit{
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1rem auto;
+    background-color:#19d5f1;
+}
+#submit:hover{
+    background-color: #14c1db;
+}
+#submit-div{
+    text-align: center;
+}
+#box-3 form p {
+    text-align: center;
+    text-decoration: none;
+
+}
+#box-3 form p a{
+    text-decoration: none;
+}
+#forget:hover{
+    text-decoration:underline;
+}
+@media screen and (max-width:1078px){
+    #sec-1{
+        flex-direction: column;
+        margin: 0px 1rem;
+    }
+    #box-1{
+        flex-direction: row;
+    }
+    #prev, #next {
+        padding: 25% 5%;
+    }
+    #email-div , #password-div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.info{
+    border: 2px solid green;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+}
+
+.info h2{
+    border: 3px solid rgb(0, 23, 128);
+    background-color: rgba(50, 212, 155, 0.35);
+    font-size: 1.7rem;
+    padding: 8px 10px ;
+    border-radius: 0.3rem;
+    /* margin: 10px; */
+}
+.info h2:hover{
+    cursor: pointer;
+}
+.info p{
+    box-sizing: border-box;
+    border: 3px solid rgb(128, 0, 6);
+    padding: 10px ;
+    font-size: 1.2rem;
+    overflow: hidden;
+    max-height: 1200px;
+    /* transition: padding 0.5s ease-in-out; */
+    transition: padding 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out;
+    /* display: none; */
+    /* max-height: 500px; */
+    /* animation: collapse 4s forwards; */
+    /* animation: de-collapse 4s forwards; */
+}
+@keyframes open{
+    form{
+        max-height: 0px;
+    }
+    to{
+        max-height: 1200px;
+    }
+}
+@keyframes close{
+    form{
+        max-height: 1200px;
+        padding: 10px;
+    }
+    to{
+        max-height: 0px;
+        padding: 0px;
+    }
+}
+#sec-2{
+    margin: 1rem;
+}
+.info i{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    top: 0;
+    right: 0;
+    padding: 8px 15px;
+}
+.minus{
+    display: none;
+}
