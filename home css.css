@@ -542,4 +542,7 @@ margin: 0px 10px;
     -webkit-transform: rotate(-45deg) translate(-18px, 12px);
     transform: rotate(-45deg) translate(-18px, 12px);
   }
+    .info p {
+    font-size: 50px;
+}
 }
