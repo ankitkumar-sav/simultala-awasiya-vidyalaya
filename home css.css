@@ -214,7 +214,7 @@ margin: 0px 10px;
 }
 
 /* Navbar for Mobile screen */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1078px) {
     body {
       color: blue;
     }
