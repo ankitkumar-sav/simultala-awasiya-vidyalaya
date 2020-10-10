@@ -53,7 +53,7 @@ margin:0;
 }
 @keyframes navbar-slider{
     from{
-        max-height: 4%;
+        max-height:11%;
     }
     to{
         max-height: 100%;
@@ -64,7 +64,7 @@ margin:0;
         max-height: 100%;
     }
     to{
-        max-height: 4%;
+        max-height: 11%;
     }
 }
 
