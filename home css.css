@@ -549,4 +549,10 @@ margin: 0px 10px;
     .info h2 {
         font-size: 4.7rem;
     }
+    #submit {
+    width: 244px;
+    height: 82px;
+    font-size: 56px;
+    padding: 15px;
+}
 }
