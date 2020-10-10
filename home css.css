@@ -500,5 +500,42 @@ margin: 0px 10px;
 }
 .container {
     margin: 15px 20px;
+
+}
+.nav-tab {
+    font-size: 58px;
+}
+#navs-list li {
+    font-size: 60px;
+}
+#search-div input {
+    font-size: 60px;
+}
+.fa-search:before {
+    font-size: 70px;
+    margin: 10px;
+}
+.material-icons {
+    font-size: 58px;
+}
+#box-1 a {
+    font-size: 60px;
+}
+#box-3 form {
+    font-size: 50px;
+}
+#box-3 h2 {
+    font-size: 60px;
+}
+#email, #password {
+    margin-bottom: 20px;
+    height: 57px;
+    font-size: 50px;
+    padding: 8px 2px;
+    border-radius: 13px;
+}
+.check {
+    width: 60px;
+    height: 60px;
 }
 }
