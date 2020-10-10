@@ -449,12 +449,12 @@ margin: 0px 10px;
         max-height: 0px;
     }
     to{
-        max-height: 1200px;
+        max-height:3300px;
     }
 }
 @keyframes close{
     form{
-        max-height: 1200px;
+        max-height: 3300px;
         padding: 10px;
     }
     to{
