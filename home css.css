@@ -476,3 +476,19 @@ margin: 0px 10px;
 .minus{
     display: none;
 }
+@media screen and (max-width: 1078px) {
+    #heading h2 {
+        font-size: 70px;
+    }
+    
+#heading-div {
+    font-size: 30px;
+}
+#logo-link img {
+    width: 80%;
+}
+#navbar {
+    max-height: 11%;
+    flex-direction: column;
+}
+}
