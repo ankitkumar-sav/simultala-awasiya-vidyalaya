@@ -538,4 +538,8 @@ margin: 0px 10px;
     width: 60px;
     height: 60px;
 }
+    .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-18px, 12px);
+    transform: rotate(-45deg) translate(-18px, 12px);
+  }
 }
