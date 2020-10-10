@@ -439,6 +439,11 @@ margin: 0px 10px;
     /* animation: collapse 4s forwards; */
     /* animation: de-collapse 4s forwards; */
 }
+@media screen and (max-width: 1078px) {
+    .info p{
+        font-size:12px;
+    }
+    }
 @keyframes open{
     form{
         max-height: 0px;
