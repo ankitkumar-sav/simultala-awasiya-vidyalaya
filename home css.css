@@ -543,6 +543,7 @@ margin: 0px 10px;
     transform: rotate(-45deg) translate(-18px, 12px);
   }
     .info p {
-    font-size: 50px;
+    font-size: 55px;
+    max-height: 3300px;
 }
 }
