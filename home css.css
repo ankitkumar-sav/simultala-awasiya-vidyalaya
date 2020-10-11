@@ -539,9 +539,11 @@ margin: 0px 10px;
     height: 60px;
 }
     .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-18px, 12px);
-    transform: rotate(-45deg) translate(-18px, 12px);
+        transform: rotate(-45deg) translate(-23px, 6px);
   }
+    .change .bar3 {
+    transform: rotate(45deg) translate(-30px, -20px);
+}
     .info p {
     font-size: 55px;
 }
@@ -557,5 +559,32 @@ margin: 0px 10px;
     .drop-lists a {
     padding: 10px 10px;
     font-size: 50px;
+}
+    function show_list() {
+    let btn = document.getElementById('drop-btn-1');
+    let item = document.getElementById('drop-list-1'); 
+    let arrow = document.getElementById("arrow-1"); 
+    arrow.setAttribute("style", `transform : rotate(${rotateAngle}deg)`);
+    rotateAngle = rotateAngle + 180;
+    if (item.style.display == 'flex'){
+        item.style.display = 'none';
+    }
+    else{
+        item.style.display = 'flex';
+    }
+}
+
+function show_list2() {
+    let btn = document.getElementById('drop-btn-2');
+    let item = document.getElementById('drop-list-2');
+    let arrow = document.getElementById("arrow-2"); 
+    arrow.setAttribute("style", `transform : rotate(${rotateAngle}deg)`);
+    rotateAngle = rotateAngle + 180;
+    if (item.style.display == 'flex'){
+        item.style.display = 'none';
+    }
+    else{
+        item.style.display = 'flex';
+    }
 }
 }
