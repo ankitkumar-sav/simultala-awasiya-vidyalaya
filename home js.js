@@ -54,7 +54,7 @@ function plusSlide() {
     item[imageCount].style.display = 'none';
     indicate[imageCount].setAttribute("style" , "opacity : 0.7")
     imageCount += 1;
-    if (imageCount == 5) {
+    if (imageCount == 6) {
         imageCount = 0;
     }
     item[imageCount].style.display = 'block';
@@ -69,7 +69,7 @@ function minusSlide() {
     imageCount -= 1;
     console.log(imageCount);
     if (imageCount == -1) {
-        imageCount = 4;
+        imageCount = 5;
     }
     item[imageCount].style.display = 'block';
     indicate[imageCount].setAttribute("style" , "opacity : 1")
