@@ -496,6 +496,9 @@ margin: 0px 10px;
     border: 2px solid rgb(223, 128, 195);
 }
 @media screen and (max-width: 1078px) {
+    .items {
+    grid-template-columns: 150px 42% 42%;
+}
     #heading h2 {
         font-size: 70px;
     }
