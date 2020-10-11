@@ -477,6 +477,24 @@ margin: 0px 10px;
 .minus{
     display: none;
 }
+#main-list{
+    border: 2px solid green;
+    display: none;
+    flex-direction: column;
+}
+.items{
+    border: 2px solid rgb(128, 158, 223);
+    display: flex;
+}
+.items{
+    display: grid;
+    /* grid-gap:0.5rem; */
+    grid-template-columns: 150px 44% 44%;
+    text-align: center;
+}
+.items div{
+    border: 2px solid rgb(223, 128, 195);
+}
 @media screen and (max-width: 1078px) {
     #heading h2 {
         font-size: 70px;
