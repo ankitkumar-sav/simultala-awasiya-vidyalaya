@@ -78,53 +78,34 @@ function minusSlide() {
 // let order= 'c';
 function collapse_func1() {
     let content = document.getElementById('para-1')
-    if (content.style.maxHeight == '1200px'){
-        content.style.maxHeight = '0px'
-        content.style.padding = '0px'
+    if (content.style.maxHeight == '0px'){
+        content.style.maxHeight = '1200px';
+        content.style.padding = '10px 10px';
     }
     else{
-        content.style.maxHeight = '1200px';
-        content.style.padding = '10px';
+        content.style.maxHeight = '0px';
+        content.style.padding = '0px 10px';
     }
-    // if (order == 'c') {
-    //     item.style.animation = 'close 2s forwards' ;
-    //     // item.style.maxHeight = '0px';
-    //     item.setAttribute("style" , "max-height : 0px ");
-    //     order = 'o';
-    //     // item.style.padding = 0 ;
-    // }
-    // else{
-    //     item.style.animation = 'open 2s forwards' ;
-    //     // item.style.maxHeight = '1200px';
-    //     item.setAttribute("style" , "max-height : 1200px ");
-    //     order = 'c';
-    // }
-    // if (content.style.maxHeight){
-    //     content.style.maxHeight = '0px';
-    //   } else {
-    //     content.style.maxHeight = content.scrollHeight + "px";
-    //     content.style.padding = '0px';
-    //   }
 }
 function collapse_func2() {
     let content = document.getElementById('para-2')
-    if (content.style.maxHeight == '1200px'){
-        content.style.maxHeight = '0px';
-        content.style.padding = '0px';
+    if (content.style.maxHeight == '0px'){
+        content.style.maxHeight = '1200px';
+        content.style.padding = '10px 10px';
     }
     else{
-        content.style.maxHeight = '1200px';
-        content.style.padding = '10px';
+        content.style.maxHeight = '0px';
+        content.style.padding = '0px 10px';
     }
 }
 function collapse_func3() {
     let content = document.getElementById('para-3')
-    if (content.style.maxHeight == '1200px'){
-        content.style.maxHeight = '0px';
-        content.style.padding = '0px';
+    if (content.style.maxHeight == '0px'){
+        content.style.maxHeight = '1200px';
+        content.style.padding = '10px 10px';
     }
     else{
         content.style.maxHeight = '1200px';
-        content.style.padding = '10px';
+        content.style.padding = '0px 10px';
     }
 }
