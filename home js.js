@@ -109,3 +109,11 @@ function collapse_func3() {
         content.style.padding = '0px 10px';
     }
 }
+function show_18th() {
+    let sec_1= document.getElementById('sec-1');
+    let sec_2= document.getElementById('sec-2');
+    let main_list= document.getElementById('main-list');
+    sec_1.style.display = 'none';
+    sec_2.style.display = 'none';
+    main_list.style.display = 'flex';
+}
