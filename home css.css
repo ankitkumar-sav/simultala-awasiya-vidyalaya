@@ -495,7 +495,7 @@ margin: 0px 10px;
 .items div{
     border: 2px solid rgb(223, 128, 195);
 }
-@media screen and (max-width: 808px) {
+@media screen and (max-width: 1078px) {
     #heading-logo{
          width:350px;
         height:350px;
