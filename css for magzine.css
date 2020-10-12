@@ -28,15 +28,16 @@
         width: 300px;
         height: 100px;
     }
-    #fact-3 div{
+   
+}
+@media screen and (max-width: 1078px) {
+     #fact-3 div{
         flex-direction: column;
     }
     #fact-3 img{
         width: 300px;
         height: 300px;
     }
-}
-@media screen and (max-width: 1078px) {
     #heading-logo{
          width:350px;
         height:350px;
