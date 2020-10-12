@@ -18,3 +18,122 @@
         height: 100px;
     }
 }
+@media screen and (max-width: 1078px) {
+    #heading-logo{
+         width:350px;
+        height:350px;
+    }
+    .items {
+    grid-template-columns: 150px 42% 42%;
+}
+    #heading h2 {
+        font-size: 70px;
+    }
+    
+#heading-div {
+    font-size: 30px;
+}
+#logo-link img {
+    width: 80%;
+    height: 80%;
+}
+#navbar {
+    max-height: 11%;
+    flex-direction: column;
+}
+.bar1, .bar2, .bar3 {
+    width: 90px;
+    height: 11px;
+    margin: 18px 0px;
+    border-radius: 4px;
+}
+.container {
+    margin: 15px 20px;
+
+}
+.nav-tab {
+    font-size: 58px;
+}
+#navs-list li {
+    font-size: 60px;
+}
+#search-div input {
+    font-size: 60px;
+}
+.fa-search:before {
+    font-size: 70px;
+    margin: 10px;
+}
+.material-icons {
+    font-size: 58px;
+}
+#box-1 a {
+    font-size: 60px;
+}
+#box-3 form {
+    font-size: 50px;
+}
+#box-3 h2 {
+    font-size: 60px;
+}
+#email, #password {
+    margin-bottom: 20px;
+    height: 57px;
+    font-size: 50px;
+    padding: 8px 2px;
+    border-radius: 13px;
+}
+#check {
+    width: 60px;
+    height: 60px;
+}
+    .change .bar1 {
+        transform: rotate(-45deg) translate(-23px, 6px);
+  }
+    .change .bar3 {
+    transform: rotate(45deg) translate(-30px, -20px);
+}
+    .info p {
+    font-size: 55px;
+}
+    .info h2 {
+        font-size: 4.7rem;
+    }
+    #submit {
+    width: 244px;
+    height: 82px;
+    font-size: 56px;
+    padding: 15px;
+}
+    .drop-lists a {
+    padding: 10px 10px;
+    font-size: 50px;
+}
+    function show_list() {
+    let btn = document.getElementById('drop-btn-1');
+    let item = document.getElementById('drop-list-1'); 
+    let arrow = document.getElementById("arrow-1"); 
+    arrow.setAttribute("style", `transform : rotate(${rotateAngle}deg)`);
+    rotateAngle = rotateAngle + 180;
+    if (item.style.display == 'flex'){
+        item.style.display = 'none';
+    }
+    else{
+        item.style.display = 'flex';
+    }
+}
+
+function show_list2() {
+    let btn = document.getElementById('drop-btn-2');
+    let item = document.getElementById('drop-list-2');
+    let arrow = document.getElementById("arrow-2"); 
+    arrow.setAttribute("style", `transform : rotate(${rotateAngle}deg)`);
+    rotateAngle = rotateAngle + 180;
+    if (item.style.display == 'flex'){
+        item.style.display = 'none';
+    }
+    else{
+        item.style.display = 'flex';
+    }
+}
+}
