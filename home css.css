@@ -16,6 +16,9 @@ margin:0;
     margin-right: 0;
     margin-left: 0;
 }
+.material-icons{
+    font-size: 23px
+}
 /* ---------------------------  CSS for heading division -------------------------*/
 #heading-div{
     border: 2px solid red;
@@ -509,6 +512,9 @@ margin: 0px 10px;
          width:350px;
         height:350px;
     }
+    .material-icons{
+    font-size: 45px
+}
     .items {
     grid-template-columns: 150px 42% 42%;
 }
