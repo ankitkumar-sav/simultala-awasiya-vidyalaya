@@ -107,7 +107,11 @@ margin:0;
     background-color: ivory;
     z-index: 2;
 }
-
+#btn-18th{
+    border: none;
+    background: none;
+    font-size: 17px;
+}
 .drop-btns{
     border: none;
     background: none;
@@ -496,6 +500,11 @@ margin: 0px 10px;
     border: 2px solid rgb(223, 128, 195);
 }
 @media screen and (max-width: 1078px) {
+    #btn-18th{
+    border: none;
+    background: none;
+    font-size: 55px;
+}
     #heading-logo{
          width:350px;
         height:350px;
