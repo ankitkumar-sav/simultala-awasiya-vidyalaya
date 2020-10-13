@@ -47,7 +47,7 @@ function show_list2() {
     }
 }
 
-let imageCount = 0;
+let imageCount = 5;
 function plusSlide() {
     let item = document.getElementsByClassName('slides');
     let indicate = document.getElementsByClassName('dot');
